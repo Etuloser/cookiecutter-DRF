@@ -1,10 +1,9 @@
 [tool.poetry]
-name = "cookiecutter-drf"
+name = "{{ project_slug }}"
 version = "0.1.0"
-description = ""
-authors = ["Eles <1494136313@qq.com>"]
+description = "{{ project_short_description }}"
+authors = ["{{ github_username }} <{{ email }}>"]
 readme = "README.md"
-packages = [{include = "cookiecutter_drf"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

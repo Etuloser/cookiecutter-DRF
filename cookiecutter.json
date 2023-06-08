@@ -1,4 +1,8 @@
 {
+  "full_name": "Eles",
+  "email": "1494136313@qq.com",
+  "github_username": "Etuloser",
   "project_name": "Cookiecutter-DRF",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "a django-rest-framework tempalte work with cookiecutter"
 }
