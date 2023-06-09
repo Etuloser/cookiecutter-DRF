@@ -1,14 +1,20 @@
 [tool.poetry]
-name = "{{ project_slug }}"
+name = "{{ cookiecutter.project_slug }}"
 version = "0.1.0"
-description = "{{ project_short_description }}"
-authors = ["{{ github_username }} <{{ email }}>"]
+description = "{{ cookiecutter.project_short_description }}"
+authors = ["{{ cookiecutter.github_username }} <{{ cookiecutter.email }}>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 djangorestframework = "^3.14.0"
 
+[tool.poetry.group.dev.dependencies]
+
+[[tool.poetry.source]]
+name = "aliyun"
+default = true
+url = "http://mirrors.aliyun.com/pypi/simple/"
 
 [build-system]
 requires = ["poetry-core"]

@@ -1,0 +1,19 @@
+{
+  "editor.fontLigatures": true, // 是否启用字体连字
+  "editor.fontSize": 14, //设置字体大小
+  "editor.fontWeight": "normal", //设置字体粗细
+  "editor.tabSize": 4,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/__init__.py": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}

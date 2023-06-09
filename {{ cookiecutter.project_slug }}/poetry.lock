@@ -15,6 +15,11 @@ files = [
 [package.extras]
 tests = ["mypy (>=0.800)", "pytest", "pytest-asyncio"]
 
+[package.source]
+type = "legacy"
+url = "http://mirrors.aliyun.com/pypi/simple"
+reference = "aliyun"
+
 [[package]]
 name = "django"
 version = "4.2.2"
@@ -36,6 +41,11 @@ tzdata = {version = "*", markers = "sys_platform == \"win32\""}
 argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
+[package.source]
+type = "legacy"
+url = "http://mirrors.aliyun.com/pypi/simple"
+reference = "aliyun"
+
 [[package]]
 name = "djangorestframework"
 version = "3.14.0"
@@ -52,6 +62,11 @@ files = [
 django = ">=3.0"
 pytz = "*"
 
+[package.source]
+type = "legacy"
+url = "http://mirrors.aliyun.com/pypi/simple"
+reference = "aliyun"
+
 [[package]]
 name = "pytz"
 version = "2023.3"
@@ -63,6 +78,11 @@ files = [
     {file = "pytz-2023.3-py2.py3-none-any.whl", hash = "sha256:a151b3abb88eda1d4e34a9814df37de2a80e301e68ba0fd856fb9b46bfbbbffb"},
     {file = "pytz-2023.3.tar.gz", hash = "sha256:1d8ce29db189191fb55338ee6d0387d82ab59f3d00eac103412d64e0ebd0c588"},
 ]
+
+[package.source]
+type = "legacy"
+url = "http://mirrors.aliyun.com/pypi/simple"
+reference = "aliyun"
 
 [[package]]
 name = "sqlparse"
@@ -81,6 +101,11 @@ dev = ["build", "flake8"]
 doc = ["sphinx"]
 test = ["pytest", "pytest-cov"]
 
+[package.source]
+type = "legacy"
+url = "http://mirrors.aliyun.com/pypi/simple"
+reference = "aliyun"
+
 [[package]]
 name = "tzdata"
 version = "2023.3"
@@ -93,7 +118,12 @@ files = [
     {file = "tzdata-2023.3.tar.gz", hash = "sha256:11ef1e08e54acb0d4f95bdb1be05da659673de4acbd21bf9c69e94cc5e907a3a"},
 ]
 
+[package.source]
+type = "legacy"
+url = "http://mirrors.aliyun.com/pypi/simple"
+reference = "aliyun"
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d7e7160e51ebc2ea69e92f59a9e79da0b2feb00c94672c8189f0dc140aace0fa"
+content-hash = "950a7aeaeecb9df9bfae37ac1a135a68ea252f2dab5bcfe9011ee2a716760645"
