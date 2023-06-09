@@ -18,4 +18,4 @@ cookiecutter https://github.com/Etuloser/cookiecutter-DRF.git
 
 ## Configuration
 
-see [cookiecutter-DRF/配置.md at main · Etuloser/cookiecutter-DRF · GitHub](https://github.com/Etuloser/cookiecutter-DRF/blob/main/{{ cookiecutter.project_slug }}/docs/配置.md) for more information about project configuration.
+ you can find more information about project configuration on `docs/配置.md` which store in project root path.
