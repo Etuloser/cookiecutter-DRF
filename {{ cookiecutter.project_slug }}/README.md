@@ -5,9 +5,9 @@
 ## 快速开始
 
 ```bash
-python3 -m venv venv
+python -m venv venv
 source venv/bin/active
 poetry install
-python3 manage.py migrate
-python3 manage.py runserver 0.0.0.0:30000
+python manage.py migrate
+python manage.py runserver 0.0.0.0:30000
 ```
