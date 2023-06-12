@@ -37,7 +37,7 @@ export default defineConfig(
         proxy: {
           [env.VITE_APP_BASE_API]: {
             // target: "http://120.77.150.247:30040/", // 线上接口地址
-            target: 'http://localhost:30000/',  // 本地接口地址
+            target: 'http://127.0.0.1:30000/',  // 本地接口地址
             changeOrigin: true,
             rewrite: (path) =>
               path.replace(new RegExp("^" + env.VITE_APP_BASE_API), ""), // 替换 /dev-api 为 target 接口地址
