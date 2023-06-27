@@ -9,12 +9,14 @@ readme = "README.md"
 python = "^3.11"
 django = "4.2.2"
 djangorestframework = "3.14.0"
+drf-spectacular = {extras = ["sidecar"], version = "^0.26.3"}
 
 [tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
 
 [[tool.poetry.source]]
 name = "aliyun"
-default = true
+priority = "default"
 url = "http://mirrors.aliyun.com/pypi/simple/"
 
 [build-system]
