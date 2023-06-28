@@ -1,3 +1,7 @@
+/* 如果在vscode中有语法警告可以安装Tailwindcss扩展后通过命令台 change language mode 选tailwinds模式 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
